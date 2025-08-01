@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.1.17](https://github.com/parameja1/language-servers/compare/lsp-json/v0.1.16...lsp-json/v0.1.17) (2025-08-01)
+
+
+### Features
+
+* add C8 test coverage support ([#1567](https://github.com/parameja1/language-servers/issues/1567)) ([eee5048](https://github.com/parameja1/language-servers/commit/eee5048c783ffc300073865d391372d5a583365c))
+* add client side ide diagnostics to telemetry event ([#1768](https://github.com/parameja1/language-servers/issues/1768)) ([d08fc6c](https://github.com/parameja1/language-servers/commit/d08fc6cccb9238cef9c2ba485e116c0516839537))
+* adding mcp servers feature to the language-server ([#1544](https://github.com/parameja1/language-servers/issues/1544)) ([f37bf5f](https://github.com/parameja1/language-servers/commit/f37bf5f91921d7611c124de6d54dd6ec653038c6))
+* **amazonq:** pinned context and rules ([#1663](https://github.com/parameja1/language-servers/issues/1663)) ([25e7a5a](https://github.com/parameja1/language-servers/commit/25e7a5ab8b6630525a4fd6acc0524f67f00af817))
+
+
+### Bug Fixes
+
+* **amazonq:** Use common utility to determine workspaceFolders and fix tests ([#1353](https://github.com/parameja1/language-servers/issues/1353)) ([483f532](https://github.com/parameja1/language-servers/commit/483f532b940d3ff2e914c0824f7501c3fe6a6235))
+* bump runtimes and fix broken test ([#1323](https://github.com/parameja1/language-servers/issues/1323)) ([7d1a7b9](https://github.com/parameja1/language-servers/commit/7d1a7b9700ee2cc154dfe357ebbb62597d3f1582))
+* ensure local index server updates with workspaceChangeEvent and bump runtimes ([#1424](https://github.com/parameja1/language-servers/issues/1424)) ([9babbb6](https://github.com/parameja1/language-servers/commit/9babbb643daa2893454dbc977d3802822b2c0aa6))
+* use document change events for auto trigger classifier input ([#1912](https://github.com/parameja1/language-servers/issues/1912)) ([2204da6](https://github.com/parameja1/language-servers/commit/2204da6193f2030ee546f61c969b1a664d8025e3))
+* use new language server runtime ([#2023](https://github.com/parameja1/language-servers/issues/2023)) ([83ea1e4](https://github.com/parameja1/language-servers/commit/83ea1e42fe52990696eb9b878fa11e2c5331bec5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/lsp-core bumped from ^0.0.12 to ^0.0.13
+
 ## [0.1.16](https://github.com/aws/language-servers/compare/lsp-json/v0.1.15...lsp-json/v0.1.16) (2025-07-17)
 
 
