@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.14](https://github.com/parameja1/language-servers/compare/lsp-core/v0.0.13...lsp-core/v0.0.14) (2025-08-08)
+
+
+### Bug Fixes
+
+* add proper encoding support for shell output ([#1903](https://github.com/parameja1/language-servers/issues/1903)) ([44a6d62](https://github.com/parameja1/language-servers/commit/44a6d629af7702662a02f384a6a542c0d72ccc39))
+* **amazonq:** add handling for relative paths for isInWorkspace ([#1801](https://github.com/parameja1/language-servers/issues/1801)) ([3c273a7](https://github.com/parameja1/language-servers/commit/3c273a7aeac88a7afe40abaf490bc0950e517c01))
+* **amazonq:** Use common utility to determine workspaceFolders and fix tests ([#1353](https://github.com/parameja1/language-servers/issues/1353)) ([483f532](https://github.com/parameja1/language-servers/commit/483f532b940d3ff2e914c0824f7501c3fe6a6235))
+* **amazonq:** workspace files being tagged as out of workspace issue ([#1726](https://github.com/parameja1/language-servers/issues/1726)) ([4bd9aea](https://github.com/parameja1/language-servers/commit/4bd9aeab439d15dc425634b14470fd3c67986c4a))
+* update fileSearch toolSpec and implementation ([#1320](https://github.com/parameja1/language-servers/issues/1320)) ([4b18f25](https://github.com/parameja1/language-servers/commit/4b18f25dfb8595f18b2773dddaa5bfbc64cf519d))
+* update listDirectory tool to output in tree-like format to reduce toolSize ([#1260](https://github.com/parameja1/language-servers/issues/1260)) ([becfee0](https://github.com/parameja1/language-servers/commit/becfee0d36e9e2a5fb5239c1e34cc6661ca01d94))
+* use document change events for auto trigger classifier input ([#1912](https://github.com/parameja1/language-servers/issues/1912)) ([2204da6](https://github.com/parameja1/language-servers/commit/2204da6193f2030ee546f61c969b1a664d8025e3))
+* use new language server runtime ([#2023](https://github.com/parameja1/language-servers/issues/2023)) ([83ea1e4](https://github.com/parameja1/language-servers/commit/83ea1e42fe52990696eb9b878fa11e2c5331bec5))
+
 ## [0.0.13](https://github.com/aws/language-servers/compare/lsp-core/v0.0.12...lsp-core/v0.0.13) (2025-08-04)
 
 
